@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.shdomi8599/vibie-mcp",
-  "description": "Deploy static HTML folders to permanent vibie.page URLs from any MCP client (Claude Desktop, Cursor, Cline, etc.). One-line auto-install, OAuth device flow auth, automatic folder marker for re-deploys.",
+  "description": "Deploy HTML folders to vibie.page from Claude / Cursor — one-line install, OAuth, auto-update.",
   "version": "0.2.1",
   "repository": {
     "url": "https://github.com/shdomi8599/vibie-mcp",
