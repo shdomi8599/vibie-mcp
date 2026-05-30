@@ -1,6 +1,6 @@
 {
   "name": "vibie-mcp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Vibie MCP server — deploy folders to vibie.page from Claude Desktop / Cursor / any MCP client.",
   "license": "MIT",
   "homepage": "https://vibie.io",
@@ -36,7 +36,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
+    "prepack": "npm run build",
     "start": "node dist/index.js",
     "dev": "tsc --watch"
   },
